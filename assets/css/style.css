@@ -1987,3 +1987,8 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+
+.Dentallog {
+    max-width: 160px;
+    height: auto;
+}
