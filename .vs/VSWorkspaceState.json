@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css"
+    "\\assets\\css",
+    "\\assets\\img",
+    "\\assets\\img\\Redes",
+    "\\assets\\img\\testimonials"
   ],
-  "SelectedNode": "\\contact.html",
+  "SelectedNode": "\\about.html",
   "PreviewInSolutionExplorer": false
 }

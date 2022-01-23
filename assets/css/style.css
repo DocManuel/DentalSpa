@@ -48,10 +48,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   line-height: 0;
 }
-.back-to-top:hover {
-  background: #85b6cf;
-  color: #fff;
-}
+    .back-to-top:hover {
+        background: #82b827;
+        color: #fff;
+    }
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
