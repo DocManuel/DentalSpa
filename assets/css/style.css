@@ -1991,4 +1991,34 @@ section {
 .Dentallog {
     max-width: 160px;
     height: auto;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out 0.2s;
 }
+
+    .Dentallog:hover {
+        z-index: 10;
+        -webkit-transform: scale(1.2);
+    }
+
+
+.btn-primary, .sppb-btn-primary {
+    height: 47px;
+    line-height: 47px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: #fff;
+    padding: 0 25px;
+    text-transform: uppercase;
+    background-image: linear-gradient(286deg, #00d3a7, #02c0d0);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+    .btn-primary:hover, .sppb-btn-primary:hover {
+        color: #fff;
+        background-image: linear-gradient(286deg, #02c0d0, #00d3a7);
+        border-radius: 2px;
+        background-color: transparent;
+        border-color: transparent;
+    }
