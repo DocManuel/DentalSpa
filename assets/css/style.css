@@ -884,12 +884,15 @@ section {
 .testimonials .testimonial-item {
   text-align: center;
 }
-.testimonials .testimonial-item .testimonial-img {
-  width: 120px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  margin: 0 auto;
-}
+    .testimonials .testimonial-item .testimonial-img {
+        width: 120px;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        margin: 0 auto;
+   /*     border-left: solid 2px #83b725;
+        border-bottom: solid 2px #d20671;
+        border-right: solid 2px #169bd6;*/
+    }
 .testimonials .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
@@ -2013,6 +2016,10 @@ section {
     background-image: linear-gradient(286deg, #00d3a7, #02c0d0);
     background-color: transparent;
     border-color: transparent;
+    border-radius: 15px;
+    border-left: solid 2px #83b725;
+    border-bottom: solid 2px #d20671;
+    border-right: solid 2px #169bd6;
 }
 
     .btn-primary:hover, .sppb-btn-primary:hover {
@@ -2021,4 +2028,16 @@ section {
         border-radius: 2px;
         background-color: transparent;
         border-color: transparent;
+        border-radius: 15px;
+        border-left: solid 2px #83b725;
+        border-bottom: solid 2px #d20671;
+        border-right: solid 2px #169bd6;
     }
+
+
+.ImgServ {
+    border-radius: 15px;
+    border-left: solid 2px #83b725;
+    border-bottom: solid 2px #d20671;
+    border-right: solid 2px #169bd6;
+}
