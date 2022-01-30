@@ -3,10 +3,8 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\img",
-    "\\assets\\img\\Redes",
-    "\\assets\\img\\testimonials"
+    "\\assets\\img"
   ],
-  "SelectedNode": "\\portfolio.html",
+  "SelectedNode": "\\assets\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }

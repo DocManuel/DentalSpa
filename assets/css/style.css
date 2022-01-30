@@ -14,8 +14,8 @@ body {
 }
 
 a {
-  color: #4fa6d5;
-  text-decoration: none;
+    color: #189cd6;
+    text-decoration: none;
 }
 
 a:hover {
@@ -497,16 +497,16 @@ section {
   bottom: 1px;
   left: calc(50% - 60px);
 }
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #68A4C4;
-  bottom: 0;
-  left: calc(50% - 20px);
-}
+    .section-title h2::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #83b82a;
+        bottom: 0;
+        left: calc(50% - 20px);
+    }
 .section-title p {
   margin-bottom: 0;
 }
@@ -652,12 +652,12 @@ section {
   border-radius: 6px;
   transition: 0.5s;
 }
-.why-us .icon-box .icon i {
-  color: #68A4C4;
-  font-size: 32px;
-}
+    .why-us .icon-box .icon i {
+        color: #189cd6;
+        font-size: 32px;
+    }
 .why-us .icon-box:hover .icon {
-  background: #68A4C4;
+    background: #189cd6;
 }
 .why-us .icon-box:hover .icon i {
   color: #fff;
@@ -669,13 +669,13 @@ section {
   font-size: 18px;
   text-transform: uppercase;
 }
-.why-us .icon-box .title a {
-  color: #343a40;
-  transition: 0.3s;
-}
-.why-us .icon-box .title a:hover {
-  color: #68A4C4;
-}
+    .why-us .icon-box .title a {
+        color: #cb0a74;
+        transition: 0.3s;
+    }
+        .why-us .icon-box .title a:hover {
+            color: #189cd6;
+        }
 .why-us .icon-box .description {
   margin-left: 95px;
   line-height: 24px;
@@ -927,16 +927,16 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #68A4C4;
-}
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #68A4C4;
-}
+    .testimonials .swiper-pagination .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        opacity: 1;
+        border: 1px solid #cb0a74;
+    }
+    .testimonials .swiper-pagination .swiper-pagination-bullet-active {
+        background-color: #169bd6;
+    }
 
 /*--------------------------------------------------------------
 # Service Details
@@ -2040,4 +2040,9 @@ section {
     border-left: solid 2px #83b725;
     border-bottom: solid 2px #d20671;
     border-right: solid 2px #169bd6;
+}
+
+.Serv {
+    color: #cb0a74;
+    font-weight:bold;
 }
