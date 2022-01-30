@@ -61,11 +61,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
-  transition: all 0.5s;
-  z-index: 997;
-  transition: all 0.5s;
-  background: #1e4356;
+    height: 80px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    background: rgba(34, 141, 189, 0.8);
 }
 #header.header-transparent {
   background: none;
